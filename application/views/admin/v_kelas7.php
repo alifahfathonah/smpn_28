@@ -21,15 +21,45 @@
           <div class="box">
 
           <div class="box">
+          <div class="form-group">
+                  <label>Kelas</label>
+                  <select class="form-control" name="kelas_tingkat" id="kelas_tingkat" required="">
+                    <option value="">Pilih</option>
+                    <?php foreach($kls7->result_array() as $data) {
+                        $id = $data['kelas_id'];
+                        $kelas = $data['kelas_nama'];
+                        
+                        ?>
+                    <option value="<?php echo $kelas;?>"><?php echo $kelas; ?>
+                                </option>
+                    <?php } ?>
+                    </select>
+                </div>
+                <div class="form-group">
+                  <label>Tahun Pelajaran</label>
+                  <select class="form-control" name="kelas_tingkat" id="kelas_tingkat" required="">
+                    <option value="">Pilih</option>
+                    <?php foreach($tahun->result_array() as $data) {
+                        $id = $data['id_tahun_ajaran'];
+                        $thn = $data['tahun_ajaran'];
+                        
+                        ?>
+                    <option value="<?php echo $thn;?>"><?php echo $thn; ?>
+                                </option>
+                    <?php } ?>
+                    </select>
+                </div>
             <div class="box-header">
             <a class="btn btn-success btn-flat" data-toggle="modal" data-target="#TambahModal"><span class="fa fa-plus"></span> Add Kelas</a>
+            <a class="btn btn-info btn-flat" data-toggle="modal" data-target="#TambahModal"><span class="fa fa-print"></span> Cetak Kelas</a>
+            
             </div>
             <!-- /.box-header -->
             <div class="box-body">
               <table id="example1" class="table table-bordered data table-striped w3-table-all w3-hoverable" style="font-size:13px;">
                 <thead>
                 <tr>
-                      <th>NO. </th>
+                    <th>NO. </th>
           					<th>NIS</th>
                      <th>NISN</th>
           					<th>Nama</th>

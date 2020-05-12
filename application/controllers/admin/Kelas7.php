@@ -19,6 +19,7 @@ class  Kelas7 extends CI_Controller{
         $data['siswa'] = $this->m_siswa->tampil();
         $data['kls'] = $this->m_kelas7->tampil_kelas()->result();
         $data['kls7']= $this->m_kelas7->kelas();
+        $data['tahun']=$this->m_tahun_ajaran->get_all_kelas();
         $this->load->view('admin/header');
 		$this->load->view('admin/sidebar');
 		$this->load->view('admin/v_kelas7',$data);

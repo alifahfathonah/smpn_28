@@ -11,6 +11,7 @@ class Siswa extends CI_Controller{
 		$this->load->model('m_kelas');
 		$this->load->library('upload');
 		$this->load->model('m_tahun_ajaran');
+		$this->load->library('pdf');
 	}
 
 
