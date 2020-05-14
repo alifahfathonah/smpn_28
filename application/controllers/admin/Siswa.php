@@ -284,7 +284,7 @@ class Siswa extends CI_Controller{
 		$pdf= new FPDF();
 		$pdf->AddPage('P','A4');
 		$pdf->setFont('Arial','B',14);
-        $pdf->Image('http://localhost/mschool/theme/images/dinas.png', 15, 7, 25);
+        $pdf->Image('http://localhost/smpn_28/theme/images/dinas.png', 15, 7, 25);
         $pdf->Cell(45,7,'',0,0,'C');
         $pdf->Cell('120',7,'PENDIDIKAN KOTA BEKASI',0,1,'C');
         $pdf->Cell('210',7,'DINAS PENDIDIKAN',0,1,'C');
