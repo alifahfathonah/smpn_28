@@ -69,12 +69,13 @@
 
                   
                     <td style="text-align:right;">
-                        <a class="btn btn-warning" data-toggle="modal" data-target="#ModalEdit<?php echo $k->kelas_id;?>"><span class="fa fa-pencil"></span></a>
+                        <a class="btn btn-xs btn-warning" data-toggle="modal" 
+                        data-target="#ModalEdit<?php echo $k->kelas_id;?>"><span class="fa fa-pencil"></span></a>
                         <span data-toggle="tooltip"
                     data-original-title="Delete data" 
                     style="font-size:10";>
                     <a href="<?php echo base_url('admin/kelas/delete/'.$k->kelas_id); ?>"
-                    class="btn btn-danger " onclick="return confirm('Hapus  <?php echo $k->kelas_nama; ?> ?')">
+                    class="btn btn-danger btn-xs " onclick="return confirm('Hapus  <?php echo $k->kelas_nama; ?> ?')">
                     <i class="fa fa-trash-o"></i></a></span>
                   </td>
                 </tr>
@@ -105,10 +106,8 @@
 				<h4 class="modal-title">Tambah Data</h4>
 			 </div>
 			 <div class="modal-body">
-       <div class="box box-info box-solid">
-            <div class="box-header with-border">
-                <h3 class="box-title">INPUT DATA PARAMEDIS</h3>
-            </div>
+       
+           
 			 	<form action="<?php echo base_url() ?>admin/kelas/tambah_aksi" method="POST">
 				 <div class="form-group">
                   <label>Kode Kelas</label>
@@ -117,8 +116,6 @@
                 <div class="form-group">
                   <label>Kelas</label>
                   <input type="text" class="form-control nama_siswa"  name="kelas_nama" placeholder="Nama Kelas">
-
-			 </div>
 			 </div>
 			 <div  class="modal-footer">
 			 	<button type="button" class="btn btn-danger pull-left" data-dismiss="modal">
