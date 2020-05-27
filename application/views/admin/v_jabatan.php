@@ -70,13 +70,13 @@
 
                   
                     <td style="text-align:right;">
-                        <a class="btn" data-toggle="modal" data-target="#ModalEdit<?php echo $j->kd_jabatan;?>">
+                        <a class="btn btn-xs btn-warning" data-toggle="modal" data-target="#ModalEdit<?php echo $j->kd_jabatan;?>">
                         <span class="fa fa-pencil"></span></a>
                         <span data-toggle="tooltip"
                     data-original-title="Delete data" 
                     style="font-size:10";>
                     <a href="<?php echo base_url('admin/jabatan/delete/'.$j->kd_jabatan); ?>"
-                    class="btn " onclick="return confirm('Hapus Jabatan  <?php echo $j->nama_jabatan; ?> ?')">
+                    class="btn btn-xs btn-danger " onclick="return confirm('Hapus Jabatan  <?php echo $j->nama_jabatan; ?> ?')">
                     <i class="fa fa-trash-o"></i></a></span>
                   </td>
                 </tr>

@@ -5,7 +5,7 @@
 <!-- Style 2 -->
 <div class="row">
   <div class="col-md-12">
-    <h3 class="gallery-style">Gallery Photo</h3>
+    <h3 class="gallery-style">Galeri Foto</h3>
   </div>
 </div><br>
 <div class="row">

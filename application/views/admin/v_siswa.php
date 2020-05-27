@@ -23,7 +23,7 @@
           <div class="box">
             <div class="box-header">
               <a class="btn btn-success btn-flat" href="siswa/siswa_tambah"><span class="fa fa-plus"></span> Add Siswa</a>
-              <a class="btn btn-info btn-flat" href="Laporan" target="_blank"><span class="fa fa-print"></span> Cetak Laporan Siswa</a>
+              <a class="btn btn-primary btn-flat" href="Laporan" target="_blank"><span class="fa fa-print"></span> Cetak Laporan Siswa</a>
               
             </div>
             <!-- /.box-header -->

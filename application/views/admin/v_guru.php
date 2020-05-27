@@ -1,13 +1,14 @@
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+  <!-- <div class="content-wrapper"> -->
     <!-- Content Header (Page header) -->
-    <div class="box box-info box-solid">
+    <!-- <div class="box box-info box-solid">
             <div class="box-header with-border">
                 <h3 class="box-title"> DATA GURU</h3>
-            </div>
-<!-- <section class="content-header"> -->
-    <!-- <section class="content-header">
+            </div> -->
+            <div class="content-wrapper">
+<section class="content-header">
+     <section class="content-header">
       <h1>
         Data Guru
         <small></small>
@@ -16,7 +17,7 @@
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="active">Guru</li>
       </ol>
-    </section> -->
+    </section>
 
     <!-- Main content -->
     <section class="content">
@@ -55,12 +56,12 @@
           					   $jabatan=$i['nama_jabatan'];
           					   $tmp_lahir=$i['guru_tmp_lahir'];
           					   $tgl_lahir=$i['guru_tgl_lahir'];
-                                $mapel=$i['guru_mapel'];
-                                $npwp =$i['guru_NPWP'];
-                                $nuptk=$i['guru_NUPTK'];
-                                $gol=$i['guru_golongan'];
-                                $keterangan=$i['guru_keterangan'];
-                                $photo=$i['guru_photo'];
+                               $mapel=$i['guru_mapel'];
+                               $npwp =$i['guru_NPWP'];
+                               $nuptk=$i['guru_NUPTK'];
+                               $gol=$i['guru_golongan'];
+                               $keterangan=$i['guru_keterangan'];
+                               $photo=$i['guru_photo'];
 
                     ?>
                 <tr>
@@ -77,8 +78,8 @@
                     <td><?php echo $mapel;?></td>
                     <td><?php echo $keterangan;?></td>
                     <td style="text-align:right;">
-                            <a class="btn" href="<?php echo base_url().'admin/guru/ubah_guru/'.$id; ?>" ><span class="fa fa-pencil"></span></a>
-                            <a class="btn" data-toggle="modal" data-target="#ModalHapus<?php echo $id;?>"><span class="fa fa-trash"></span></a>
+                            <a class="btn btn-xs btn-warning" href="<?php echo base_url().'admin/guru/ubah_guru/'.$id; ?>" ><span class="fa fa-pencil"></span></a>
+                            <a class="btn btn-xs btn-danger" data-toggle="modal" data-target="#ModalHapus<?php echo $id;?>"><span class="fa fa-trash"></span></a>
                     </td>
                 </tr>
 				<?php endforeach;?>

@@ -9,7 +9,7 @@
 
 Assalamualaikum Wr.Wb.
 
-Selamat datang di website resmi SMP Negeri 9 Kota Bekasi. Sebagaimana kita ketahui bersama, teknologi informasi, lebih khusus lagi teknologi internet atau dunia maya, kini begitu jauh merasuk ke berbagai aspek kehidupan kita, tidak terkecuali dalam bidang pendidikan.
+Selamat datang di website resmi SMP Negeri 28 Kota Bekasi. Sebagaimana kita ketahui bersama, teknologi informasi, lebih khusus lagi teknologi internet atau dunia maya, kini begitu jauh merasuk ke berbagai aspek kehidupan kita, tidak terkecuali dalam bidang pendidikan.
 
 Maka untuk mengantisipasi perkembangan teknologi tersebut, SMP Negeri 9 Kota Bekasi merasa perlu untuk ikut ambil bagian di dalamnya melalui website ini. Para pendidik, para peserta didik serta seluruh stakeholder SMP Negeri 9 Kota Bekasi dapat berkontribusi di sini.
 
