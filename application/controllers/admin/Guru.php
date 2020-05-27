@@ -15,7 +15,7 @@ class Guru extends CI_Controller{
 		
 	}
 
-
+ 
 	function index(){
 		$x['data']=$this->m_guru->get_guru();
 		$this->load->view('admin/header');

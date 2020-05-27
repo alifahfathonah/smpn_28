@@ -91,12 +91,12 @@
         		 <td><?php echo $kelas;?></td>
                   <td><?php echo $tahun;?></td>              
                   <td style="text-align:right;">
-                        <a class="btn" data-toggle="modal" data-target="#ModalEdit<?php echo $kelas_id;?>"><span class="fa fa-pencil"></span></a>
+                        <a class="btn btn-warning btn-xs" data-toggle="modal" data-target="#ModalEdit<?php echo $kelas_id;?>"><span class="fa fa-pencil"></span></a>
                         <span data-toggle="tooltip"
                     data-original-title="Delete data" 
                     style="font-size:10";>
                     <a href="<?php echo base_url('admin/kelas7/delete/'.$kelas_id); ?>"
-                    class="btn " onclick="return confirm('Hapus  <?php echo $nama; ?> ?')">
+                    class="btn btn-danger btn-xs" onclick="return confirm('Hapus  <?php echo $nama; ?> ?')">
                     <i class="fa fa-trash-o"></i></a></span>
                   </td>
                 </tr>

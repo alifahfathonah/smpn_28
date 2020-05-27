@@ -53,7 +53,7 @@
                        $nama=$i['siswa_nama'];
                        $jekel = $i['siswa_jenkel'];
                        $kelas7=$i['kls7'];
-                          $tahun7=$i['tp7'];
+                      $tahun7=$i['tp7'];
                         $kls8=$i['kls8'];
                         $tp8 = $i['tp8'];
                     ?>
@@ -68,12 +68,12 @@
                   <td><?php echo $kls8; ?></td>
                   <td><?php echo $tp8;?></td>             
                   <td style="text-align:right;">
-                        <a class="btn" data-toggle="modal" data-target="#ModalEdit<?php echo $kelas_id;?>"><span class="fa fa-pencil"></span></a>
+                        <a class="btn btn-warning btn-xs" data-toggle="modal" data-target="#ModalEdit<?php echo $kelas_id;?>"><span class="fa fa-pencil"></span></a>
                         <span data-toggle="tooltip"
                     data-original-title="Delete data" 
                     style="font-size:10";>
                     <a href="<?php echo base_url('admin/kelas8/delete/'.$kelas_id); ?>"
-                    class="btn " onclick="return confirm('Hapus  <?php echo $nama; ?> ?')">
+                    class="btn btn-xs btn-danger " onclick="return confirm('Hapus  <?php echo $nama; ?> ?')">
                     <i class="fa fa-trash-o"></i></a></span>
                   </td>
                 </tr>

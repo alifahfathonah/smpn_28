@@ -47,7 +47,7 @@
                         $id_guru=$i['nip'];
                        $nama=$i['nama'];
                        $kls = $i['kelas'];
-          				$tahun=$i['tahun_ajaran'];
+          				    $tahun=$i['tahun_ajaran'];
                     ?>
                 <tr>
                 <td><?php echo $no++ ?></td>
@@ -57,12 +57,12 @@
                   <td><?php echo $kls; ?></td>
                   <td><?php echo $tahun;?></td>              
                   <td style="text-align:right;">
-                        <a class="btn" data-toggle="modal" data-target="#ModalEdit<?php echo $kd_walas;?>"><span class="fa fa-pencil"></span></a>
+                        <a class="btn btn-xs btn-warning" data-toggle="modal" data-target="#ModalEdit<?php echo $kd_walas;?>"><span class="fa fa-pencil"></span></a>
                         <span data-toggle="tooltip"
                     data-original-title="Delete data" 
                     style="font-size:10";>
                     <a href="<?php echo base_url('admin/walas/delete/'.$kd_walas); ?>"
-                    class="btn " onclick="return confirm('Hapus  <?php echo $nama; ?> ?')">
+                    class="btn btn-xs btn-danger " onclick="return confirm('Hapus  <?php echo $nama; ?> ?')">
                     <i class="fa fa-trash-o"></i></a></span>
                   </td>
                 </tr>
